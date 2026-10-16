@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lady's web</title>
+</head>
+<style>
+  h1{
+  color : pink ;
+  }
+ 
+  p {
+  color : purple ;
+  }
+ 
+  body{
+  background-color : ivory
+    }
+  button{ 
+  background-color : red;
+  color : yellow;
+  border : 1px solid black;
+  padding : 12px 24px;
+   border-radius : 8px
+  }
+  </style>
+
+  <body>
+    <h1> Lady's web</h1>
+    <p>Welcome to Lady's web</p>
+
+    <button onclick="showMessage()">clickme</button>
+    <p id="message"></p>
+
+    <script>
+      function  showMessage() { 
+document.getElementById("message").textContent= "I love hasan"
+        }
+</script>
+</body>
+</html>
